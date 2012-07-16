@@ -16,4 +16,14 @@
         permission="zope2.Public"
         />
 
+    <viewlet
+        name="js-raphael-extjs"
+        paths="/++resource++raphaeljs/js/raphael-extjs.js"
+        weight="10"
+        for="*"
+        manager="Products.ZenUI3.browser.interfaces.IJavaScriptSrcManager"
+        class="Products.ZenUI3.browser.javascript.JavaScriptSrcBundleViewlet"
+        permission="zope2.Public"
+        />
+
 </configure>
